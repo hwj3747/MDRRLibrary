@@ -241,8 +241,8 @@ public abstract class AbsBaseFragment extends android.support.v4.app.Fragment im
     }
 
     @Override
-    public void showEmpty() {
-        toggleShowEmpty(true, null, null);
+    public void showEmpty(View.OnClickListener onClickListener) {
+        toggleShowEmpty(true, null, onClickListener);
     }
 
     @Override

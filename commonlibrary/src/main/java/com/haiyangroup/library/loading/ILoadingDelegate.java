@@ -16,6 +16,8 @@
 
 package com.haiyangroup.library.loading;
 
+import android.view.View;
+
 /**
  * Author:  Tau.Chen
  * Email:   1076559197@qq.com | tauchen1990@gmail.com
@@ -54,6 +56,6 @@ public interface ILoadingDelegate {
     /**
      * show empty
      */
-    void showEmpty();
+    void showEmpty(View.OnClickListener onClickListener);
 
 }
